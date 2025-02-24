@@ -1,0 +1,20 @@
+{
+  "name": "zonosjs",
+  "version": "1.0.6",
+  "description": "NPM-пакет для запуска и взаимодействия с локальным сервером Zonos для синтеза речи с клонированием голоса zyphra/zonos",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+      "zonosjs": "./server.js"
+  },
+  "scripts": {
+      "start": "node index.js",
+      "serve": "node server.js serve"
+  },
+  "dependencies": {
+      "axios": "^1.7.7",
+      "form-data": "^4.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
